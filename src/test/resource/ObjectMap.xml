@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebpageLocators>
+    <LandingPage>
+        <LoginPopup>//*[@class='_2AkmmA _29YdH8']</LoginPopup>
+    </LandingPage>
+    <HomePage>
+        <SearchBox>//*[@class='LM6RPg']</SearchBox>
+        <SearchBtn>//*[@class='vh79eN']</SearchBtn>
+        <MobileCategory>//*[@class='_3XS1AH _32ZSYo' and @title='Mobiles']</MobileCategory>
+        <MinimumPrice>((//*[@class='fPjUPw'])[1])</MinimumPrice>
+        <Brand>//*[@class='_4IiNRh _2mtkou' and @title='Apple']</Brand>
+        <Availability>//*[contains(@class, '_2yccxO D0YrLF') and text() = 'Availability']</Availability>
+        <ExcludeOutOfStack>//*[contains(@class, '_4IiNRh _2mtkou') and @title='Exclude Out of Stock']</ExcludeOutOfStack>
+        <Filter>//*[@class='_2xEnNW']</Filter>
+    </HomePage>
+    <SearchPage>
+        <Mobileid1>((//*[@class='_31qSD5'])[1])</Mobileid1>
+        <Mobileid2>((//*[@class='_31qSD5'])[2])</Mobileid2>
+        <MobileName1>((//*[@class='_3wU53n'])[1])</MobileName1>
+        <MobileName2>((//*[@class='_3wU53n'])[2])</MobileName2>
+        <MobilePrice1>((//*[@class='_1vC4OE _2rQ-NK'])[1])</MobilePrice1>
+        <MobilePrice2>((//*[@class='_1vC4OE _2rQ-NK'])[2])</MobilePrice2>
+
+
+    </SearchPage>
+</WebpageLocators>
